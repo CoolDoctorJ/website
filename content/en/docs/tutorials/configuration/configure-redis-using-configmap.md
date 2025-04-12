@@ -222,7 +222,7 @@ Check `maxmemory`:
 127.0.0.1:6379> CONFIG GET maxmemory
 ```
 
-It should now return the updated value of 2097152:
+It should now return the updated value of `2097152`:
 
 ```shell
 1) "maxmemory"
